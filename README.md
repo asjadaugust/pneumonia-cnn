@@ -34,16 +34,7 @@ axarr[1, 1].imshow(mpimg.imread(imgs[3]))
 ```
 
     Samples images for PNEUMONIA X-Rays
-    
-
-
-
-
     <matplotlib.image.AxesImage at 0x1d93faadb00>
-
-
-
-
     <Figure size 1152x1152 with 0 Axes>
 
 
