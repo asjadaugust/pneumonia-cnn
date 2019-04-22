@@ -292,3 +292,22 @@ print(f'''Accuracy = {predctr*100/len(path_content)}%''')
     NORMAL
     Accuracy = 55.98290598290598%
     
+## Deployment
+
+Create and new directory and clone the following repository:
+	
+```python
+	git clone https://github.com/asjadaugust/pneumonia-cnn.git	
+```
+
+Open the Anaconda Shell and navigate to the project folder and run the following commands:
+	
+```python
+	cd pneumonia-cnn
+	conda create --name pneumoniacnn python=3.7 --no-default-packages
+	conda activate pneumoniacnn
+	pip install -r requirements.txt
+	python model.py
+```
+
+The above command will evaluate all the images present in input folder and print the predicted classification on the terminal.
